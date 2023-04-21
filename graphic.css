@@ -1,0 +1,64 @@
+body {
+    background: url("https://thumbs.gfycat.com/HarmfulOptimalAlligatorsnappingturtle-size_restricted.gif"); /* The image used for background */
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+  
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links-container a {
+    width: 70%;
+  }
+  
+  .color {
+    color:#000000 !important;
+    background-color: #ffb4d2 !important
+  }
+
+  .color:hover {
+    background-color: #ff9ca8 !important;
+  }
+  
+  .margin-top-2 {
+    margin-top: 32px;
+  }
+  
+  .bottom {
+    width: 100%;
+    text-align: center;
+    width: auto;
+    font-weight: bolder;
+  }
+  
+  .bottom span {
+    color: #850c35;
+  }
+  
+  .bottom svg {
+    stroke: #8e2145;
+    fill: #862344;
+  }
+  
+  @media (min-width: 768px) {
+    .link {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
